@@ -1,4 +1,5 @@
 import { Box, Button, Heading } from "@chakra-ui/react";
+
 export default function Home() {
   return (
     <header>
@@ -6,7 +7,7 @@ export default function Home() {
         <Heading as="h1" color={"teal.100"}>
           Hola mundo
         </Heading>
-        <Button colorScheme="brand.100"></Button>
+        <Button variant={'primary'}>Hola</Button>
       </Box>
     </header>
   );
